@@ -1,0 +1,2 @@
+steps:
+- build: -t test -f Dockerfile ./images
