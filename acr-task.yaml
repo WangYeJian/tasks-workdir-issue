@@ -1,2 +1,6 @@
 steps:
-- build: -t test -f Dockerfile ./images
+# Docker file in subdir
+- build: -t i2 -f ./images/Dockerfile ./images
+
+# Docker file in referenced by workspace
+- build: -t i2 -f ./Dockerfile ./images

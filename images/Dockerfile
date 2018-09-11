@@ -1,2 +1,2 @@
 FROM scratch
-ADD ./a.txt /a.txt
+ADD ./b.txt /b.txt
